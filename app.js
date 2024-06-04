@@ -1,5 +1,5 @@
 // Destructuring //p   ksi object ko brake karna ka lia
-// Template literals //p    ``
+// Template literals //p    ``  in do nichan ko bactack bolta ha
 // Default parameters //p  
 // Rest parameter //p  ...   concate
 // Spread Operator //p  murg karna ka lia
@@ -22,14 +22,13 @@
 
 
 // Destructuring
-// const user = {
-//   username: "abdullah",
-//   email: "mabdullah2037@gmail.com",
-//   age: 21,
-// };
-// const { username, email, age } = user;
-
-// console.log(username);
+const user = {
+  username: "abdullah",
+  email: "mabdullah2037@gmail.com",
+  age: 21,
+};
+const { username, email, age } = user;// is tarika sa hamara kam asan hojata ha Destructuring sa hama harjaga object ka nam nahi likhna parta
+console.log(username);
 
 // const fruit = ["apple", "banana", "orange", "mango"];
 
