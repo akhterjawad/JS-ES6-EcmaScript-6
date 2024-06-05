@@ -1,8 +1,8 @@
 // Destructuring //p   ksi object ko brake karna ka lia
 // Template literals //p    ``  in do nichan ko bactack bolta ha
 // Default parameters //p  
-// Rest parameter //p  ...   concate
-// Spread Operator //p  murg karna ka lia
+// Rest parameter //p  ...   concate         array ka lia
+// Spread Operator //p  murg karna ka lia    object ka lia
 // Arrow functions  //p  
 // Enhanced object literals //p   username age 
 // Iterators & For..of  //p
@@ -31,12 +31,11 @@ const { username, email, age } = user;// is tarika sa hamara kam asan hojata ha 
 console.log(username);
 
 
-
-
 // Destructuring
-const fruit = ["apple", "banana", "orange", "mango"];
-const [, , , four] = fruit;
+const fruits = ["apple", "banana", "orange", "mango"];
+const [, , , four] = fruits;
 console.log(four);
+
 
 
 //default parameter
@@ -44,21 +43,37 @@ function greetUser(username = "abd") {
   console.log(`hello ${username}`);
 }
 greetUser();
+// default parameter ma ya hota ha ka parameter receive karta wa hi us ki value set kardata ha jaisa  username = "abd"  is tarika sa or jub hum argument pass karta ha to argument ki value ajati ha default value ka bajay
 
+
+//rest operator
+function hello(...username) {
+  console.log(username);
+}
+hello("abdullah", "usman", "ammar", "zain", "hassan");
+//is tarika sa jub hum parameter receive karta ha to hamara pas jitna bhi argument ho array ki form ma ajata ha  
 
 
 //spread operator
-// const fruit = ["apple", "banana", "orange", "mango"];
-// const arr2 = ["watermelon", ...fruit];
-// console.log(arr2);
-// const newArr = arr2.concat(fruit);
-// console.log(newArr);
+const fruit = ["apple", "banana", "orange", "mango"];
+const arr2 = ["watermelon", ...fruit];
+console.log(arr2);
+//is ma bhi rest operater wala kam hota ha bus rest operater function ka lia hota ha or spread operater array ka lia
 
-//rest operator
-// function hello(...username) {
-//   console.log(username);
-// }
-// hello("abdullah", "usman", "ammar", "zain", "hassan");
+
+
+// Enhanced object literals
+let names = "abd";
+let ages = 21;
+let users = {
+  names,
+  ages,
+};
+console.log(users);
+//is tarika sa hamara pas short cut tarika sa object ki key bhi ajati ha or uski value bhi kam asan hojata ha
+
+
+
 
 //ternary operator
 // const num = 220;
@@ -86,13 +101,4 @@ greetUser();
 
 
 
-// Enhanced object literals
-// let names = "abd";
-// let age = 21;
-
-// let user = {
-//   names,
-//   age,
-// };
-// console.log(user);
 
