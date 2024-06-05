@@ -5,13 +5,13 @@
 // Spread Operator //p  murg karna ka lia    object ka lia
 // Arrow functions  //p  
 // Enhanced object literals //p   username age 
+// Ternary Operator //p    ??
 // Iterators & For..of  //p
 // Map  //p
 // Array methods  //p
 // Higher-order function  //p
 // CallBack  //p
 // Promises  //p
-// Ternary Operator //p    ??
 // Variable Scoping
 // Closure
 // Generators
@@ -76,29 +76,29 @@ console.log(users);
 
 
 //ternary operator
-// const num = 220;
+const num = 220;
 // if (num > 50) {
-//   console.log("passed");
-// } else {
-//   console.log("failed");
-// }
-
-// num > 50 ? console.log("passed") : console.log("failed");
-
+  //   console.log("passed");
+  // } else {
+    //   console.log("failed");
+    // }
+    
+    num > 50 ? console.log("passed") : console.log("failed");
+    
 // if (num > 70) {
-//   console.log("behtreen");
-// } else if (num > 50) {
-//   console.log("passed");
-// } else {
-//   console.log("failed");
-// }
-
-// num > 70
-//   ? console.log("behtreen")
-//   : num > 50
-//   ? console.log("passed")
-//   : console.log("failed");
-
-
-
+  //   console.log("behtreen");
+  // } else if (num > 50) {
+    //   console.log("passed");
+    // } else {
+      //   console.log("failed");
+      // }
+      
+      // num > 70
+      //   ? console.log("behtreen")
+      //   : num > 50
+      //   ? console.log("passed")
+      //   : console.log("failed");
+      //    ternary operator bhi if else ki condition ki tarha kam karta ha.  ternary operator ma else ko bolta ha : or ? condition likhna ka foran bad likhta ha
+      
+      
 
