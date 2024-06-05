@@ -30,13 +30,24 @@ const user = {
 const { username, email, age } = user;// is tarika sa hamara kam asan hojata ha Destructuring sa hama harjaga object ka nam nahi likhna parta
 console.log(username);
 
-// const fruit = ["apple", "banana", "orange", "mango"];
 
-// const [, , , four] = fruit;
-// console.log(four);
+
+
+// Destructuring
+const fruit = ["apple", "banana", "orange", "mango"];
+const [, , , four] = fruit;
+console.log(four);
+
+
+//default parameter
+function greetUser(username = "abd") {
+  console.log(`hello ${username}`);
+}
+greetUser();
+
+
 
 //spread operator
-
 // const fruit = ["apple", "banana", "orange", "mango"];
 // const arr2 = ["watermelon", ...fruit];
 // console.log(arr2);
@@ -73,16 +84,9 @@ console.log(username);
 //   ? console.log("passed")
 //   : console.log("failed");
 
-//default parameter
 
-// function greetUser(username = "abd") {
-//   console.log(`hello ${username}`);
-// }
-
-// greetUser();
 
 // Enhanced object literals
-
 // let names = "abd";
 // let age = 21;
 
