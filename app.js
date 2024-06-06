@@ -1,3 +1,4 @@
+// variable declarations     let & var,const
 // Destructuring //p   ksi object ko brake karna ka lia
 // Template literals //p    ``  in do nichan ko bactack bolta ha
 // Default parameters //p  
@@ -19,6 +20,22 @@
 // Exponentiation Operator
 // Optional chaining
 // Object Methods (keys,values,freez,entries)
+
+// variable declarations
+//teen tarika sa variable declare ho sakta ha
+// var
+// let
+// const
+
+var hasnain; // is tarha variable declare karta ha
+hasnain = 50; // is tarha variable ki value ko assingn karta ha
+var haseeb = 80; // is tarha variable declare karta han or uski value ko assingn karta ha
+//var ma variable ko redeclare bhi kar sakta ha or uski value reassign bhi ho sakti ha dubara sa jaisa
+var jawad =90;
+var jawad =80;
+// let var ki tarha ha bs variable redeclare or reassign nahi ho sakta
+// const ma variable declare karsakta ha or hath ka hath uski value ko assign karsakta ha var,let ki tarha bad ma assign nahi kar sakta ha
+
 
 
 // Destructuring
