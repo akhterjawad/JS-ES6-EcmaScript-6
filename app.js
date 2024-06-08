@@ -37,6 +37,16 @@ var jawad =80;
 // const ma variable declare karsakta ha or hath ka hath uski value ko assign karsakta ha var,let ki tarha bad ma assign nahi kar sakta ha
 
 
+//Hoisting
+// var hoisting support karta ha let || const hoisting support nahi karta
+
+// console.log(usernames);
+// var usernames = 'abdullah';
+// console.log(username1);
+// let username1 = 'abdullah';
+
+// var usernames;
+
 
 // Destructuring
 const user = {
