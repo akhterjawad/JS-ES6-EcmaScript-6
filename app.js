@@ -16,7 +16,7 @@
 // Variable Scoping
 // Closure
 // Generators
-// Modules
+// Modules //p
 // Exponentiation Operator
 // Optional chaining
 // Object Methods (keys,values,freez,entries)
@@ -128,4 +128,10 @@ const num = 220;
       //    ternary operator bhi if else ki condition ki tarha kam karta ha.  ternary operator ma else ko bolta ha : or ? condition likhna ka foran bad likhta ha
       
       
+// Modules
 
+// Modules isi lia use hota k jub hum koi function || variable ya istarha ki different cheza JS ki 1 file ma banai hui ha or dusri ile ma use karna charaha ho to usa dusri file ma use karna ka lia hum Modulesuse karta ha 
+
+// hum apni JS ki file ma kuch bhi likha jaisa function || variable to agar usko dusri file ma bhajna hoto hama us function || variable banana sa paihly export ata ha bs or js file ma lana ho to hum usa import karlata ha
+
+export let v = 'akhter'; 
