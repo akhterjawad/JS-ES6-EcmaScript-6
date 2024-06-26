@@ -1,2 +1,2 @@
-import { v } from "./app.js";
-console.log(v);
+import {q} from "./app.js";
+console.log(q);

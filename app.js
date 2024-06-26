@@ -132,6 +132,6 @@ const num = 220;
 
 // Modules isi lia use hota k jub hum koi function || variable ya istarha ki different cheza JS ki 1 file ma banai hui ha or dusri ile ma use karna charaha ho to usa dusri file ma use karna ka lia hum Modulesuse karta ha 
 
-// hum apni JS ki file ma kuch bhi likha jaisa function || variable to agar usko dusri file ma bhajna hoto hama us function || variable banana sa paihly export ata ha bs or js file ma lana ho to hum usa import karlata ha
+// hum apni JS ki file ma kuch bhi likha jaisa function || variable to agar usko dusri file ma bhajna hoto hama us function || variable ko export karna parta ha ,function || variable ko banana sa paihly export lagana parta ha bs or js file ma receive karna ho to hum usa import karlata ha
 
-export let v = 'akhter'; 
+export let q = 'akhter'; 
