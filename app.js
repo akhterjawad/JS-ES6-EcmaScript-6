@@ -13,13 +13,17 @@
 // Higher-order function  //p
 // CallBack  //p
 // Promises  //p
-// Variable Scoping
-// Closure
+// Variable Scoping //p  local or global variable
+// Closure //p function ka ander function
 // Generators
-// Modules //p
+// Modules //p      koi variable JS ki ksi or file ma banao or js ki ksi or file ma use karlo
+
 // Exponentiation Operator
 // Optional chaining
 // Object Methods (keys,values,freez,entries)
+
+
+
 
 // variable declarations
 //teen tarika sa variable declare ho sakta ha
@@ -135,3 +139,19 @@ const num = 220;
 // hum apni JS ki file ma kuch bhi likha jaisa function || variable to agar usko dusri file ma bhajna hoto hama us function || variable ko export karna parta ha ,function || variable ko banana sa paihly export lagana parta ha bs or js file ma receive karna ho to hum usa import karlata ha
 
 export let q = 'akhter'; 
+
+
+// Closure
+
+function outerFunction() {
+  let outerVariable = 'I am outside!';
+
+  function innerFunction() {
+      console.log(outerVariable); // Accessing outer function's variable
+  }
+
+  return innerFunction;
+}
+
+const closureFunction = outerFunction();
+closureFunction(); // Output: 'I am outside!'
